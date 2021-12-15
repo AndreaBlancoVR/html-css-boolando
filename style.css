@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#corpo {
+    width: 1920px;
+    height: 1644px;
+    background-color: #EDEDED;
+}
+
+.container {
+    width: 480px;
+    height: 769px;
+    background-color: rgb(201, 15, 201);
+
+}
+
+.rect1 {
+    width: 448px;
+    height: 669px;
+    background-color: rgb(15, 33, 201);
+    margin: 0 auto;
+}
+
+.img-sopra {
+    width: 448px;
+    height: 669px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.img-sotto {
+    width: 448px;
+    height: 669px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.tags {
+    position: absolute;
+}
+
+.sconto {
+    background-color: #EB0037;
+}
+
+.sostenibilità {
+    background-color: #00875A;
+}
