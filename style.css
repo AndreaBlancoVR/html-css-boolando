@@ -7,22 +7,51 @@
 #corpo {
     width: 1920px;
     height: 1644px;
-    background-color: #EDEDED;
+    background-color: white;
+    position:absolute;
 }
 
-.container1 {
+div[class^="container"] {
     width: 480px;
     height: 769px;
-    background-color: rgb(201, 15, 201);
+    /* background-color: rgb(201, 15, 201); */
     position: absolute;
-    }
+}
 
-  
+.container-1 {
+    left: 225px;
+    top: 40px;
+}
+
+.container-2 {
+    left: 700px;
+    top: 40px;
+}
+
+.container-3 {
+    left: 1175px;
+    top: 40px;
+}
+
+.container-4 {
+    left: 225px;
+    bottom: 40px;
+}
+
+.container-5 {
+    left: 700px;
+    bottom: 40px;
+}
+
+.container-6 {
+    left: 1175px;
+    bottom: 40px;
+}
 
 .rect1 {
     width: 448px;
     height: 669px;
-    background-color: rgb(15, 33, 201);
+    /* background-color: rgb(15, 33, 201); */
     position: absolute;
     left: 16px;
 }
@@ -30,7 +59,7 @@
 .rect2 {
     width: 448px;
     height: 63px;
-    background-color: coral;
+    /* background-color: coral; */
     position: absolute;
     bottom: 37px;
     left: 16px;
@@ -60,7 +89,7 @@
 }
 
 .tags {
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     position: absolute;
     bottom: 3%;
     height: 44px;
@@ -103,6 +132,7 @@
     width: 49px;
     height: 50px;
     position: absolute;
+    top: 20px;
     right: 0px;
     background-color: white;
 }
@@ -110,4 +140,27 @@
 .cuore {
     padding-top: 5px;
     font-size: 30px;
+}
+
+.marchio {
+    font-size: 14px;
+}
+
+.modello {
+    font-weight: 600;
+}
+
+.prezzo1 {
+    color: red;
+    font-weight: 800;
+}
+
+.prezzo2 {
+    text-decoration: line-through;
+    color: #373432;
+}
+
+.rect2 {
+    position: absolute;
+    top: 89%;
 }
